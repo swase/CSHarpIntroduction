@@ -7,6 +7,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Greetings Normie!!");
+            Console.WriteLine("REEEEEEEEEEEEEEE!!!!!!!");
+            Console.WriteLine("Below is the arguments ");
+            for (int i = 0; i < args.Length; i++)
+            {
+                Console.Write(args[i] + " ");
+            }
         }
     }
 }
