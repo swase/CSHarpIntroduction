@@ -8,7 +8,11 @@ namespace Methods_Lib
         // corresponding to a given number of days
         public static (int weeks, int days) DaysAndWeeks(int totalDays)
         {
-            throw new NotImplementedException();
+            if (totalDays < 0)
+            {
+                throw new ArgumentOutOfRangeException("totalDays must not be negative");
+            }
+            return (totalDays / 7,totalDays % 7);
 
         }
 
@@ -18,6 +22,16 @@ namespace Methods_Lib
             var num2 = rng.Next(1, 7);
             return num1 + num2;
         }
+
+        public static (int square, int cube, double square_root) PowersRoot(int num)
+        {
+            if (num < 0)
+            {
+                throw new ArgumentOutOfRangeException("Cannot find root of Negative num using real number arithmetic");
+            }
+            return ((int)Math.Pow(num, 2), (int)Math.Pow(num, 3), Math.Sqrt(num));
+        }
+
 
     }
 }

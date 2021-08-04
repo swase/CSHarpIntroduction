@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafariParkApp", "SafariParkApp\SafariParkApp.csproj", "{025728A5-9702-47FA-9BFB-D2870150B1FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{025728A5-9702-47FA-9BFB-D2870150B1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025728A5-9702-47FA-9BFB-D2870150B1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025728A5-9702-47FA-9BFB-D2870150B1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025728A5-9702-47FA-9BFB-D2870150B1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8EB03FC-9CEC-4940-804D-C9038B233E30}
+	EndGlobalSection
+EndGlobal
