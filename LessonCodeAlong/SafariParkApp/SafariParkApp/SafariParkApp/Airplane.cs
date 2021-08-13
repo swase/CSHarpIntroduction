@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    class Airplane : Vehicle
+    public class Airplane : Vehicle
     {
         private string _airline = "";
         public int Altitude { get; set; } = 0;

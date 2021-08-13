@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    public class Vehicle
+    public class Vehicle : IMovable
     {
         public int Position { get; private set; } = 0;
         public int Speed { get; init; }
@@ -33,13 +33,13 @@ namespace SafariParkApp
 
             }
         }
-        virtual public string Move()
+        public virtual string Move()
         {
             Position += Speed;
             return "Moving along";
         }
 
-        virtual public string Move(int times)
+        public virtual string Move(int times)
         {
             Position += times * Speed;
             return $"Moving along {times} times";
